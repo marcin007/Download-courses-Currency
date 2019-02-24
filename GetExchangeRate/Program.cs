@@ -10,10 +10,11 @@ namespace GetExchangeRate
     {
         const String URL = "https://api.exchangeratesapi.io/{0}?base=PLN";
         const String DB_FILE = "main.sqlite";
-
+        
         /**
          * Definicja bazy danych
          */
+        
         const String DB_DEF = @"
         CREATE TABLE currency(
             id integer NOT NULL PRIMARY KEY,
